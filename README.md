@@ -53,4 +53,4 @@ The requirements for the project are as follows:
 
 - File Upload System Designs
     - [https://uploadcare.com/blog/handling-large-file-uploads/](https://uploadcare.com/blog/handling-large-file-uploads/)
-
+    - [S3 Upload Proxies vs Presigned Urls vs Presigned Posts](https://zaccharles.medium.com/s3-uploads-proxies-vs-presigned-urls-vs-presigned-posts-9661e2b37932)

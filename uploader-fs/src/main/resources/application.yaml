@@ -1,0 +1,22 @@
+###############################################################################################
+# Server Configuration
+###############################################################################################
+
+server.port: 8080
+spring:
+  profiles.active: dev
+  application.name: fs-file-uploader
+
+###############################################################################################
+# Upload Configurations
+###############################################################################################
+
+# Servlet Configurations for Multipart File
+spring.servlet.multipart:
+  enabled: false          # to use apache commons fileupload instead
+  max-file-size: 5GB      # Max file size for each request
+  max-request-size: 5GB   # Max request size for a multipart/form-data
+
+my.uploader:
+  root-dir: "../storage"
+
