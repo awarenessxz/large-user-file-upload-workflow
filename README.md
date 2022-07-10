@@ -54,3 +54,6 @@ The requirements for the project are as follows:
 - File Upload System Designs
     - [https://uploadcare.com/blog/handling-large-file-uploads/](https://uploadcare.com/blog/handling-large-file-uploads/)
     - [S3 Upload Proxies vs Presigned Urls vs Presigned Posts](https://zaccharles.medium.com/s3-uploads-proxies-vs-presigned-urls-vs-presigned-posts-9661e2b37932)
+- Spring Boot File Upload Examples
+    - [Spring Boot File Upload / Download Rest API Example](https://www.callicoder.com/spring-boot-file-upload-download-rest-api-example/)
+

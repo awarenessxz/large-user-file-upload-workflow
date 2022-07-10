@@ -35,7 +35,7 @@ class UploaderController(
     /**
      * MultiPart File Upload using apache commons fileupload (Able to handle large file uploads)
      **/
-    @PostMapping("/upload", consumes = [MediaType.MULTIPART_FORM_DATA_VALUE], produces = ["application/json"])
+    @PostMapping("/stream/upload", consumes = [MediaType.MULTIPART_FORM_DATA_VALUE], produces = ["application/json"])
     fun uploadMultipleFilesViaStreams(request: HttpServletRequest): List<UploadFileResponse> {
         val isMultipart = ServletFileUpload.isMultipartContent(request)
         if (!isMultipart) {

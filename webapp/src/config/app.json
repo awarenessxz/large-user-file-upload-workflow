@@ -1,0 +1,21 @@
+{
+    "web_name": "FileUploader.io",
+    "navbar_menu": [
+        {
+            "path": "/upload-fs",
+            "label": "Upload FS"
+        },
+        {
+            "path": "/upload-s3",
+            "label": "Upload S3"
+        }
+    ],
+    "dropzone": {
+        "maxSizeInText": "5GB",
+        "maxSizeInBytes": 5368706371
+    },
+    "api_endpoints": {
+        "upload_files_fs": "/api/fs/stream/upload",
+        "upload_files_s3": "/api/s3/upload"
+    }
+}
